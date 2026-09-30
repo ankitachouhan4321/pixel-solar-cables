@@ -659,10 +659,6 @@ box-shadow:none !important;
         padding-left: 15px;
     }
 
-    .main-navbar .dropdown-submenu > .dropdown-item::after {
-        content: "\f107";
-    }
-
 }
 
 /*=====================
