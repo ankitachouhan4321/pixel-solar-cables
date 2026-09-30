@@ -1,0 +1,439 @@
+@media (max-width: 1400px) {
+
+    .testimonial-card {
+        padding: 30px 15px;
+    }
+    .category-box {
+    padding: 20px 6px;
+}
+}
+
+@media (max-width: 1200px) {
+  .category-box {
+    padding: 20px 7px;
+}
+}
+
+@media (max-width: 991px) {
+    .main-navbar .navbar-collapse {
+        position: fixed;
+        top: 0;
+        left: -350px;
+        width: 350px;
+        height: 100vh;
+        background: var(--primary);
+        /* Your navbar color */
+        z-index: 1050;
+        padding: 30px 20px;
+        transition: all .4s ease;
+        overflow-y: auto;
+        display: block !important;
+    }
+
+    .main-navbar .navbar-collapse.show {
+        left: 0;
+    }
+
+    .main-navbar .navbar-nav {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .main-navbar .nav-item {
+        margin: 10px 0;
+    }
+
+
+    /* Dark Overlay */
+    .main-navbar .navbar-collapse::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, .5);
+        z-index: -1;
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s;
+    }
+
+    .main-navbar .navbar-collapse.show::before {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .home-banner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #home-banner .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #home-banner .content .heading {
+        text-align: center;
+    }
+
+    #home-banner .content p {
+        text-align: center;
+    }
+
+
+
+    #home-banner {
+        height: fit-content;
+    }
+
+    .mega-title {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .section {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .nav-item {
+        margin: 0;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid gray;
+    }
+
+    .navbar .btn-main {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: fit-content;
+    }
+
+    .testimonial-card {
+        margin-top: 20px;
+    }
+
+    .navbar .nav-link {
+        font-size: 14px;
+    }
+
+    #we-work .box {
+        margin-top: 30px;
+    }
+
+    .footer-logoJah img {
+        width: 100%;
+    }
+
+    #breadcrumb h2 {
+        color: white;
+        font-size: 40px;
+    }
+
+    #error-page .img-box img {
+        width: 100%;
+    }
+
+    #error-page p {
+        padding: 10px;
+    }
+
+    .navbar-nav {
+        gap: 0px;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+    .blog-title {
+    font-size: 18px;
+}
+    .heading br{
+        display: none;
+    }
+    .top-header .logo {
+        max-height: 80px;
+    }
+
+    #about-sec-2 .stat-box {
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .products-section .category-btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .sub-head {
+        font-size: 14px;
+    }
+
+    .btn-main {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+
+    #home-banner.home-banner-1 {
+        display: none;
+    }
+
+    #home-banner.home-banner-2 {
+        display: block;
+    }
+
+    .blog-details-page .blog-title {
+        font-size: 35px;
+    }
+
+    .heading {
+        font-size: 35px;
+    }
+
+    .marquee span {
+        font-size: 16px;
+        padding-right: 20px;
+    }
+
+    .marquee-box {
+        padding: 10px 0;
+    }
+#blog-sec .read-more{
+    font-size: 14px;
+        padding: 8px 18px;
+}
+#breadcrumb{
+    padding: 100px 0 100px 0;
+}
+#breadcrumb .breadcrumb{
+   margin-bottom: 0;
+
+}
+.breadcrumb-item a {
+    font-size: 16px;
+}
+.breadcrumb-item.active{
+    font-size: 16px;
+}
+
+}
+
+@media (max-width: 674px) {
+    .top-header .right {
+        display: none;
+    }
+
+}
+
+@media (max-width: 575px) {
+    #blog-page .article-title {
+    font-size: 16px;
+}
+    #blog-page .blog-content blockquote {
+    font-size: 16px;
+    padding: 10px;
+}
+        #breadcrumb {
+        padding: 80px 0 80px 0;
+    }
+    #contact-page .form-sec form {
+    padding: 30px 12px;
+}
+    #contact-page .card-sec .card-box p {
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    #contact-page .card-sec .card-box h4 a{
+        font-size: 20px;
+    }
+
+    #contact-page .card-sec .icon {
+    width: 50px;
+    height: 50px;
+    margin: 0px 0px 10px 0px;
+    font-size: 22px;
+    min-width: unset;
+}
+
+    #home-banner-1{
+    display:none;
+
+}
+   #home-banner-2{
+    display:block;
+
+}
+    
+    .quote-text {
+        margin-bottom: 0;
+    }
+
+    .quote-text{
+        font-size: 14px;
+    }
+    .top-head{
+        font-size: 14px;
+    }
+
+    .btn-sec {
+        padding: 13px 19px;
+        font-size: 14px;
+    }
+     .btn-main {
+        padding: 13px 19px;
+        font-size: 14px;
+    }
+
+    .main-navbar .navbar-collapse {
+        width: 280px;
+    }
+
+
+    #why-choose .content .main-box i {
+        font-size: 20px;
+    }
+
+    #why-choose .content .main-box .icon {
+        height: 40px;
+        width: 40px;
+    }
+
+    #why-choose .content .main-box h5 {
+        font-size: 20px;
+    }
+
+    #why-choose .content .main-box .icon {
+        margin-right: 5px;
+    }
+
+    #breadcrumb h2 {
+        font-size: 26px;
+    }
+
+
+}
+
+@media (max-width: 500px) {
+    .top-header .logo {
+        max-height: 56px;
+    }
+
+    #error-page p {
+        font-size: 16px;
+    }
+
+    .accordion-button {
+        padding: 1rem 0.5rem !important;
+        font-size: 18px !important;
+    }
+
+    .accordion-body {
+        padding: 1rem 0.5rem !important;
+    }
+
+    .faq-icon {
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+    }
+
+    .faq-icon i {
+        font-size: 14px;
+
+    }
+
+    .heading {
+        font-size: 26px;
+    }
+
+    .section {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #contact-page .left .box p {
+        font-size: 16px;
+    }
+
+    #contact-page .left .box-add p br {
+        display: none;
+    }
+
+    #contact-page .left .box p a {
+        font-size: 16px;
+    }
+
+    #contact-page .left .box h4 {
+        font-size: 18px;
+    }
+
+    #contact-page .left .small-icon-box i {
+        font-size: 24px;
+    }
+
+    #contact-page .left .small-icon-box {
+        width: 50px;
+        height: 50px;
+    }
+
+    .blog-details-page .blog-title {
+        font-size: 26px;
+    }
+
+    #error-page h1 {
+        font-size: 34px;
+    }
+
+    #error-page {
+        padding: 50px 0;
+    }
+#about-sec-2 .icon {
+    font-size: 36px;
+    margin-bottom: 2px;
+}
+#about-sec-2 .count {
+    font-size: 30px;
+}
+#about-sec-2 .stat-box {
+    padding: 15px 10px;
+}
+#about-sec-2 .stats-section {
+    padding: 20px 0;
+}
+.why-choose-us {
+    padding: 50px 0;
+}
+
+
+
+}
+
+@media (max-width: 400px) {
+    #contact-page .left .box {
+        width: 100%;
+    }
+
+    .testimonial-card {
+        padding: 30px 7px;
+    }
+
+    #why-choose .content .main-box {
+        margin: 0;
+    }
+}
+
+@media (max-width: 390px) {
+    .about-sec .img-wraper {
+
+        height: 589px;
+    }
+}
